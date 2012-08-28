@@ -140,6 +140,7 @@
 			# Country <select>
 			$countries = array(
 				'Australia',
+				'Switzerland',
 				'United Kingdom',
 				'United States',
 			);
@@ -220,7 +221,8 @@
 		public function _build_paypay_url($default = false)
 		{
 			$countries_tld = array(
-				'Australia'			 => 'com.au',
+				'Australia'		 => 'com.au',
+				'Switzerland'	 => 'ch',
 				'United Kingdom' => 'co.uk',
 				'United States'	 => 'com',
 			);
